@@ -1,0 +1,8 @@
+name: "SO101 LeRobot v3 (preview; confirm joint units before calibration)"
+dataset:
+  _target_: caliball.dataset.lerobot_v3_dataset.LeRobotV3Dataset
+  state_keys: observation.state
+  state_processor:
+    _target_: caliball.dataset.state_processors.SliceProcessor
+    start: 0
+    stop: 6

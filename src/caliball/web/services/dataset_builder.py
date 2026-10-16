@@ -27,6 +27,7 @@ class DatasetBuilder:
     }
     _CONFIGURABLE_DATASETS = {
         "caliball.dataset.lerobot_dataset.LeRobotDataset",
+        "caliball.dataset.lerobot_v3_dataset.LeRobotV3Dataset",
     }
 
     @staticmethod
@@ -177,11 +178,13 @@ class DatasetBuilder:
 
         # Construct dataset
         if ds_target in DatasetBuilder._CONFIGURABLE_DATASETS:
-            dataset = LeRobotDataset(
+            from hydra.utils import get_class
+            dataset = get_class(ds_target)(
                 repo_id=task_path,
                 episodes=[episode_idx],
                 state_keys=state_keys,
                 state_processor=processor,
+                **({"decode_video_keys": ds_cfg["decode_video_keys"]} if "decode_video_keys" in ds_cfg else {}),
             )
         else:
             # 自定义 dataset：透传 YAML 中 dataset 下的所有参数，用 Hydra instantiate

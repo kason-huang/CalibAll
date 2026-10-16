@@ -1,0 +1,11 @@
+name: "Official demo - ALOHA (select robot aloha_v1)"
+dual_arm: true
+dataset:
+  _target_: caliball.dataset.lerobot_dataset.LeRobotDataset
+  state_keys: observation.state
+  decode_video_keys:
+    - observation.images.main
+  state_processor:
+    _target_: caliball.dataset.state_processors.SliceProcessor
+    start: 0
+    stop: 14

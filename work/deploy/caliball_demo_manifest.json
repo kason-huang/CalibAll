@@ -1,0 +1,122 @@
+[
+  {
+    "type": "file",
+    "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+    "size": 2504,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "32897cd3e640101ba184f8c4ccd896981de3804a",
+    "size": 21,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "b7ef3728b25ed323e5644e23490aac02bbfe0be3",
+    "size": 86593,
+    "lfs": {
+      "oid": "7726590dbc3cd8bcc49b3872a2772c986c04519532122539e042c6b81cba1bf4",
+      "size": 86593,
+      "pointerSize": 130
+    },
+    "xetHash": "cb5d323e725c002c7e87d319c5397c7d3f8d121950abd09b750d0420f45063ac",
+    "path": "aloha_lerobot/data/chunk-000/episode_000000.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "aa45f4db997945cc50fc19e3f4ef07fb64c6433e",
+    "size": 175,
+    "path": "aloha_lerobot/meta/episodes.jsonl"
+  },
+  {
+    "type": "file",
+    "oid": "c7f391fe312b615f843c9ac9c759a4f1a6c10326",
+    "size": 3877,
+    "path": "aloha_lerobot/meta/info.json"
+  },
+  {
+    "type": "file",
+    "oid": "236e82a79de2adae37b8a8e5a17017e0bdac45d8",
+    "size": 153,
+    "path": "aloha_lerobot/meta/tasks.jsonl"
+  },
+  {
+    "type": "file",
+    "oid": "4e5478895006ce55597f682fd86b5c73b04655a7",
+    "size": 4084835,
+    "lfs": {
+      "oid": "3f50a534e437fb5f12e6b764238ba131333eebe83e52c73f649e0e50a032c547",
+      "size": 4084835,
+      "pointerSize": 132
+    },
+    "xetHash": "8c31143fff8c15a7432c9d37024c218f368ba8643a433d997e6336691dc75629",
+    "path": "aloha_lerobot/videos/chunk-000/observation.images.left_wrist/episode_000000.mp4"
+  },
+  {
+    "type": "file",
+    "oid": "d92f46f4833f087b62d9780cc1c0bb8c2c129ec2",
+    "size": 10865230,
+    "lfs": {
+      "oid": "d715fd23232d87f09d19dbe6b242fe3a0906f66be823195ae02148410e271e45",
+      "size": 10865230,
+      "pointerSize": 133
+    },
+    "xetHash": "9e9725b5e70d5b2b0fc06be9c96788d7f1bd325a6e1f4ee8979478631144f2e4",
+    "path": "aloha_lerobot/videos/chunk-000/observation.images.main/episode_000000.mp4"
+  },
+  {
+    "type": "file",
+    "oid": "87708b6e4ceb5e6acd58af721b3ed5beee451de0",
+    "size": 3859125,
+    "lfs": {
+      "oid": "623bdc6d5140902f3a1668689d0b90679da1f9a6035324430fff62401b789e52",
+      "size": 3859125,
+      "pointerSize": 132
+    },
+    "xetHash": "002eb7f88babb4905b1577014b8f79046bd976ea42840b56389b59cb2a6b40b2",
+    "path": "aloha_lerobot/videos/chunk-000/observation.images.right_wrist/episode_000000.mp4"
+  },
+  {
+    "type": "file",
+    "oid": "e14c5be577c893408b2838464cb2cfbcbedfa356",
+    "size": 11843,
+    "lfs": {
+      "oid": "4fae47df9d60f1cfb4ae0d87289f041dcb64943838278149b73e13455becb9bb",
+      "size": 11843,
+      "pointerSize": 130
+    },
+    "xetHash": "18975759c4f3a64676e1d11e15ecbfb46128fa2359ea3ff450730b188b6cd7a2",
+    "path": "panda_lerobot/data/chunk-000/episode_000000.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1f1498a83c2ef557df0370e2665d5374a06d08bf",
+    "size": 69,
+    "path": "panda_lerobot/meta/episodes.jsonl"
+  },
+  {
+    "type": "file",
+    "oid": "3c2156a0f623177a75ec48220d95a850f3a369a5",
+    "size": 1803,
+    "path": "panda_lerobot/meta/info.json"
+  },
+  {
+    "type": "file",
+    "oid": "54a583168cca3135730ac275e035af836d598cf6",
+    "size": 48,
+    "path": "panda_lerobot/meta/tasks.jsonl"
+  },
+  {
+    "type": "file",
+    "oid": "9329d9a887fb9bd18c135840c36116d7e8da8649",
+    "size": 790526,
+    "lfs": {
+      "oid": "9b5b05c0127bb169247471f12664bcfdbcfa645ebc24f84a64ee1de81144c77e",
+      "size": 790526,
+      "pointerSize": 131
+    },
+    "xetHash": "d94c8d979521ca323ced75e42ddc3a50fbfeeff8122d886ea9dd3b31d04971b7",
+    "path": "panda_lerobot/videos/chunk-000/observation.images.camera_top/episode_000000.mp4"
+  }
+]
