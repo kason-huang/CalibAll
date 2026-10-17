@@ -18,6 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
+work/
 var/
 wheels/
 share/python-wheels/

@@ -1,0 +1,15 @@
+base_path: /home/kason/workspace/CalibAll/data/demo
+calib_dataset_name: panda_demo_label_20261017
+dataset:
+  _target_: caliball.dataset.lerobot_dataset.LeRobotDataset
+  repo_id: ${base_path}/${dataset_name}
+  state_keys: observation.state
+dataset_name: panda_lerobot
+label:
+  arm_mesh_num: 8
+  camera_names:
+  - observation.images.camera_top
+  device: cuda
+  max_episodes: 1
+  output_dir: /home/kason/workspace/CalibAll/label_out/panda_demo_label_20261017
+robot_type: franka

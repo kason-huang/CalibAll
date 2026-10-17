@@ -1,0 +1,275 @@
+{
+  "commit": "666e73f7111a70385fc3c736f8e4b3a1d7d2f3ad",
+  "files": [
+    {
+      "file": "scripts/caliball_web.py",
+      "lines": 637,
+      "sha256": "7e26205e62f443b670b019d91de56bdb2d3f36434d1da91bff8db280e2c1b61f"
+    },
+    {
+      "file": "scripts/label.py",
+      "lines": 296,
+      "sha256": "a30aecdd12fad8045f0666f4f1553a02a23be5c95a0e59ccbc5200578ef4644f"
+    },
+    {
+      "file": "scripts/visualize.py",
+      "lines": 411,
+      "sha256": "4d432eece5000ac997509e1cf388ca3b582e33155cd59732fe1c706322a3fa2b"
+    },
+    {
+      "file": "src/caliball/web/app.py",
+      "lines": 71,
+      "sha256": "8adb066690d55296355ab90e18a9c7edd0d8b18c796bc1cd03e170df5fceda9b"
+    },
+    {
+      "file": "src/caliball/web/state.py",
+      "lines": 78,
+      "sha256": "bc51f8223c021320474e3c6e0fb664a3395c756cd1bafd2c5cd21653ccb17e07"
+    },
+    {
+      "file": "src/caliball/web/routes/config_routes.py",
+      "lines": 82,
+      "sha256": "a127e488d9bfbe2b3145c89e4b4ac95b3787dacee4a4cf66a1b1186d4c32b786"
+    },
+    {
+      "file": "src/caliball/web/routes/annotate_routes.py",
+      "lines": 220,
+      "sha256": "94fe67e856ca345c9114f491a8485be90481b228ebb3d79c8586a731bd2b9d60"
+    },
+    {
+      "file": "src/caliball/web/routes/pipeline_routes.py",
+      "lines": 31,
+      "sha256": "bb6e78e6575ccdfa15e6680e63ac7d0b41f7347d58feac418cc4736127789852"
+    },
+    {
+      "file": "src/caliball/web/services/dataset_builder.py",
+      "lines": 203,
+      "sha256": "e15d7c91c31cb1430f9ee566dcbf2c321b5ed7e9af885ec48eb7863c398a0424"
+    },
+    {
+      "file": "src/caliball/web/services/sam_service.py",
+      "lines": 99,
+      "sha256": "b5101c7e7775756acb5ba9ed494d5493a27a4a7e1a9c80407b6f5176c4f7812e"
+    },
+    {
+      "file": "src/caliball/web/templates/config.html",
+      "lines": 332,
+      "sha256": "a95fc6177464c85e9c726ad50dbc0a4115d01382ad96e8f40449260a359f3646"
+    },
+    {
+      "file": "src/caliball/web/templates/annotate.html",
+      "lines": 411,
+      "sha256": "e0216ae01dc94a6e98dc103aff0bc768e9ac206eeda809f6cb242e8026613721"
+    },
+    {
+      "file": "src/caliball/pipeline/extrinsic_pipeline.py",
+      "lines": 215,
+      "sha256": "4af82eb526cc2f320876da7df38f32945ca1ee8ce6e834f7132c952454990fcc"
+    },
+    {
+      "file": "src/caliball/pipeline/coarse_init.py",
+      "lines": 91,
+      "sha256": "66682bd621c8e88c1907f183fac953b5a36336b0fe4c3f73eb1e648ac22f4d62"
+    },
+    {
+      "file": "src/caliball/pipeline/refinement.py",
+      "lines": 234,
+      "sha256": "748ff62775b1db643187468ad62d177f404db141401d4114870cc1b9ee41282f"
+    },
+    {
+      "file": "src/caliball/pipeline/result_saver.py",
+      "lines": 85,
+      "sha256": "4ffaa8edd2333a078da420232cdfeef9c44b00f7f3d6b233166cac543f10be3a"
+    },
+    {
+      "file": "src/caliball/algorithms/recognizer.py",
+      "lines": 128,
+      "sha256": "ff7eda46327680860e5a86b090e062658f3c9dfd5bf4fe9f004685160c7ddafa"
+    },
+    {
+      "file": "src/caliball/algorithms/tracker.py",
+      "lines": 166,
+      "sha256": "15b407af8e3a6cc0a5d7cc0f192af83ffcdd5fc6d89b38817823f6b504c50157"
+    },
+    {
+      "file": "src/caliball/algorithms/pose_estimator.py",
+      "lines": 37,
+      "sha256": "ebabdeab98104b72ff8014478cdfcff9cbbb452c68f6c99f3b1d3f30f67ff0a4"
+    },
+    {
+      "file": "src/caliball/algorithms/intrinsic_estimator.py",
+      "lines": 105,
+      "sha256": "f1811d56ba8b6b0b1815240b3963926279de328a553bc5e029b749ede31c59cf"
+    },
+    {
+      "file": "src/caliball/algorithms/mask_extractor.py",
+      "lines": 39,
+      "sha256": "71580a0b2fd5ee308f19eb58c73343a6cea59dfcca8c971a976372c1bf31fe5a"
+    },
+    {
+      "file": "src/caliball/algorithms/rendering_optimizer.py",
+      "lines": 103,
+      "sha256": "95635e0cf2f6287a2805f4814925073185221a03b854a143aef75d2b3d2f76f6"
+    },
+    {
+      "file": "src/caliball/rendering/nvdiffrast_renderer.py",
+      "lines": 235,
+      "sha256": "18fe96a222efa3cfb9a3cc375556d134f570d22811e557eeb54a7ef8593df38f"
+    },
+    {
+      "file": "src/caliball/rendering/nvdiffrast_utils.py",
+      "lines": 23,
+      "sha256": "2b981473b155715bfff8815a8a6529d581e83ec8d0515424c4fa557a64d104a3"
+    },
+    {
+      "file": "src/caliball/robots/__init__.py",
+      "lines": 53,
+      "sha256": "82d5ecc024242e6bacfc2db63862c9db7e972846de6677d8828500aa1ab0d64a"
+    },
+    {
+      "file": "src/caliball/robots/_registry.py",
+      "lines": 44,
+      "sha256": "7a027552fd51c3c87568a775550d286a68f1698af7f7d914d6235aebd2bdc626"
+    },
+    {
+      "file": "src/caliball/robots/_base.py",
+      "lines": 151,
+      "sha256": "7f5e5d3df5ca081c09bcb9b3c13fc33c0b1cc48b8e679c3377b4e76bdd3fc196"
+    },
+    {
+      "file": "src/caliball/robots/_rtb.py",
+      "lines": 52,
+      "sha256": "d25dfeb58eba69427768f37ed8eca1fed89c74465c5a5a1679e4289cce7f22b9"
+    },
+    {
+      "file": "src/caliball/robots/_composite.py",
+      "lines": 119,
+      "sha256": "ad3dd28c00e8021d2147eb2ab1d155f72e83eee6e01ab6ea3299a4661359fe94"
+    },
+    {
+      "file": "src/caliball/robots/_dual_arm.py",
+      "lines": 59,
+      "sha256": "6c0c12d65e83453d2459bc94761c6b7bcb8428cb6a2dc7767a9a6118e5998d62"
+    },
+    {
+      "file": "src/caliball/robots/franka.py",
+      "lines": 56,
+      "sha256": "ad0968e1ae57d293287c88d5455e3447f1c34906ff64c6be1b59e75893a5e9b6"
+    },
+    {
+      "file": "src/caliball/robots/franka_hand.py",
+      "lines": 207,
+      "sha256": "d846d4588101df1e0ff1068fcf43320de57a4c11548c6c3a2f7de7351bac8f4c"
+    },
+    {
+      "file": "src/caliball/robots/aloha.py",
+      "lines": 220,
+      "sha256": "83af10f32efed70aed68f4d75469e18a323163a06868e34e784489280f5940fb"
+    },
+    {
+      "file": "src/caliball/robots/so101.py",
+      "lines": 94,
+      "sha256": "c3487445422c29f210d41c04e6fdd0830af1fa1da9d5b1922a095a4e3e8e1566"
+    },
+    {
+      "file": "src/caliball/dataset/lerobot_dataset.py",
+      "lines": 217,
+      "sha256": "f2d48ce15b1617118501e122e484efe75e6bdc8829b12a91a2f368d42b5d5cd9"
+    },
+    {
+      "file": "src/caliball/dataset/lerobot_v3_dataset.py",
+      "lines": 62,
+      "sha256": "6ee332917082c361136063ba18ec9442126ab3b5ae910aa883d272ee6f2f7f2c"
+    },
+    {
+      "file": "src/caliball/dataset/state_processors.py",
+      "lines": 108,
+      "sha256": "d5cf03bb5591fa65c551a1352894446979c680a54e9916f44bc42aa798ba8548"
+    },
+    {
+      "file": "src/caliball/dataset/lerobot_writer.py",
+      "lines": 219,
+      "sha256": "ad61648c19ee2fa184221404f5ee779bf0466ef88538e64fdf125f6477b7cec9"
+    },
+    {
+      "file": "src/caliball/labeling/orchestrator.py",
+      "lines": 160,
+      "sha256": "9b7a1e37eaebf0e87220e092093bcd7d319ea0bdf9f0110d09f2bd3896fe3c75"
+    },
+    {
+      "file": "src/caliball/labeling/pose_calculator.py",
+      "lines": 209,
+      "sha256": "4eb0d47f2aadbbaa2a10f48e17c731106956624a610e2e47e0ba27259a9d88fd"
+    },
+    {
+      "file": "src/caliball/labeling/mask_renderer.py",
+      "lines": 156,
+      "sha256": "c279a4e104d9f354fc59d875a53e8e167fe64606bb082c288434d23ccaa5cb98"
+    },
+    {
+      "file": "src/caliball/labeling/label_data.py",
+      "lines": 195,
+      "sha256": "c31b0a0e301c625b91218d105e0984e97f67a8603a4b024e7b186563206f97a1"
+    },
+    {
+      "file": "src/caliball/labeling/eef_pose.py",
+      "lines": 223,
+      "sha256": "8bb076dccd9365fcf95480692eef447a9f328618831dad56d5b293d1fc2a725b"
+    },
+    {
+      "file": "src/caliball/config/__init__.py",
+      "lines": 63,
+      "sha256": "5c8fb533de36ea74787fdd035364c0c1f7d9c1a8171d2b6f7d908237d8fe6908"
+    },
+    {
+      "file": "src/caliball/config/camera_intrinsic_extrinsic.py",
+      "lines": 113,
+      "sha256": "746d656ee14ab26d01a9317cbc2eff89c146d9e66856ce0b6153e3bf4f1ffa80"
+    },
+    {
+      "file": "src/caliball/config/models.yaml",
+      "lines": 14,
+      "sha256": "f8ae2e055285831ec7048b5cff8b2bc33c639fdc3cdc471e834da8937415b032"
+    },
+    {
+      "file": "src/caliball/config/demo_franka.yaml",
+      "lines": 24,
+      "sha256": "a55648d4afebf2a83f49915772324deebf58a8e155c24bc956d55fc9f0f7c9cb"
+    },
+    {
+      "file": "src/caliball/config/demo_aloha.yaml",
+      "lines": 21,
+      "sha256": "4d188c8b6251ccc1021d4dd6d98b631ac64d3a7e7f187ed53d2e2855d4978d91"
+    },
+    {
+      "file": "src/caliball/config/dataset/default.yaml",
+      "lines": 6,
+      "sha256": "597bbf8b196d92c71cac7305035f15acf51bbee17ad34742e0af102c8c9cbfbc"
+    },
+    {
+      "file": "src/caliball/config/dataset/official_demo_aloha.yaml",
+      "lines": 11,
+      "sha256": "aaffbfff511118b341ef09c3d002392fd53ac81e0d98391d811fd1ae9e954cdb"
+    },
+    {
+      "file": "src/caliball/config/dataset/so101_v3.yaml",
+      "lines": 8,
+      "sha256": "d64b82be322281151c051d03945cb87b10543558f7a6ea9437bb795217091eac"
+    },
+    {
+      "file": "src/caliball/utils/transforms.py",
+      "lines": 732,
+      "sha256": "42c34c99bcc23bef4e7847c1099f9d5d7030cbcfc9e10763e844de7f9496a63e"
+    },
+    {
+      "file": "src/caliball/utils/video_io.py",
+      "lines": 107,
+      "sha256": "38a07e54a26581953037e42a3dcbcc279e629238bf9f9a464af2d12dcb5521f9"
+    },
+    {
+      "file": "src/caliball/utils/mesh_loader.py",
+      "lines": 48,
+      "sha256": "f134400357c9de6fd1476f1cb9754f66c9c1a7b7e9ea821fbbe2cfcc9b2022eb"
+    }
+  ]
+}
